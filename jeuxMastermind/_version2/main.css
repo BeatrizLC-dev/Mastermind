@@ -1,0 +1,54 @@
+* {
+    border-radius: 0 !important;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+    height: 100%;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: purple;
+}
+
+.mastermind-box {
+    background: #eee;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 900px;
+    height: 800px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+}
+
+.mastermind-body {
+    background-image: url("img/boardgame.png");
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+table {
+    width: 100px;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+    vertical-align: top;
+}
+
+.td-button {
+    border: none;
+    padding: 0;
+    vertical-align: bottom;
+}
